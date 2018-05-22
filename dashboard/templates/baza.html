@@ -1,0 +1,34 @@
+<div class="sideBar">
+    <div id="clear" class="margin btn2">Czyść bazę</div>
+    <div id="export" class="margin btn2">Eksport bazy</div>
+    <div id="delete" class="margin btn2">Usuń tabelę</div>
+    <div id="log" class="margin btn2">Logi bazy</div>
+</div>
+<div class="contentUser">
+    <div id="resultClear">
+        Wyczyść bazę:
+        <select id="whichDB">
+            <option value="users">users</option>
+            <option value="dane_kandydata">dane kandydata</option>
+            <option value="punktacja">punktacja</option>
+        </select>
+        <button id="clearDB">Czyść</button>
+        <div id="whatHappenC"></div>
+    </div>
+
+    <div id="resultExport">
+        <div>
+            Stwórz backup tabel oraz pobierz: <button id="exportDB">Eksport</button>
+        </div>
+        <div id="whatHappenEx"></div>
+    </div>
+
+    <div id="resultDelete">
+        Usuń tabelę:
+        <select id="deleteSecelct" class="selectUsers">
+            <!--tabele z bazy-->
+        </select><button id="deleteBTN">Usuń</button>
+        <div id="whatHappenDel"></div>
+    </div>
+    <div id="resultLogi">Logi</div>
+</div>

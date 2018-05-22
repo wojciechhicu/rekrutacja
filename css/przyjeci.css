@@ -1,0 +1,25 @@
+/*style lista przyjętych*/
+.przyjeciContent
+{
+    height: 100vh;
+    width: calc(100vw - 220px);
+}
+#mainSelect {
+    width: 250px;
+    height: 30px;
+    font-size: 18px;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+#pokaz{
+    height: 35px;
+}
+#listaPrzyjetych
+{
+    background: red;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+}

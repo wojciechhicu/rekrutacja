@@ -1,0 +1,86 @@
+html,
+body {
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background: url(../images/tlo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.flex-center {
+    display: flex;
+    width: 260px;
+    height: 300px;
+    text-align: center;
+    align-items: center;
+}
+
+.input {
+    width: 250px;
+    height: 35px;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    border-radius: 2px;
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 4px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.input:focus {
+    outline: none;
+    border: 1px solid rgba(255, 255, 255, 0.9);
+}
+
+.button {
+    width: 250px;
+    height: 35px;
+    background: #fff;
+    border: 1px solid rgb(200, 200, 200);
+    cursor: pointer;
+    border-radius: 2px;
+    color: #a18d6c;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 6px;
+    margin-top: 10px;
+    transition: 0.3s;
+    opacity: 0.8;
+}
+
+.button:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.error {
+    font-size: 18px;
+    color: white;
+    height:22px;
+    width:100%;
+}
+
+.result {
+    color: green;
+    font-size: 18px;
+    height:22px;
+    width:100%;
+}
